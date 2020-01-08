@@ -21,6 +21,7 @@
   ],
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "f:build": "father build",
     "build": "sh ./scripts/build.sh",
