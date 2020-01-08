@@ -17,6 +17,7 @@ export function getPlainNode(nodeList, parentPath = '') {
     return arr;
 }
 
+
 function getRelation(str1, str2) {
     if (str1 === str2) {
         console.warn('Two path are equal!'); // eslint-disable-line
@@ -46,8 +47,6 @@ function getRenderArr(routes) {
     }
     return renderArr;
 }
-
-
 
 // 给官方演示站点用，用于关闭真实开发环境不需要使用的特性
 export function isAntdPro() {

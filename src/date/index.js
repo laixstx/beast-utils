@@ -96,8 +96,8 @@ Date.prototype.format = function(format, timestamp) {
     }
     var date = {
         'M+': tempDate.getMonth() + 1,
-        'd+': tempDate.getDate(),
-        'h+': padLeft(tempDate.getHours().toString(), 2),
+        'D+': tempDate.getDate(),
+        'H+': padLeft(tempDate.getHours().toString(), 2),
         'm+': padLeft(tempDate.getMinutes().toString(), 2),
         's+': padLeft(tempDate.getSeconds().toString(), 2),
         'q+': Math.floor((tempDate.getMonth() + 3) / 3),
