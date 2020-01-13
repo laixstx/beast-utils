@@ -1,12 +1,10 @@
 {
-  "name": "beast-utils",
-  "version": "0.0.2-beta.7",
+  "name": "jh-utils",
+  "version": "0.0.1-beta.2",
   "description": "一个工具方法库",
-  "repository": "https://github.com/laixstx/beast-utils.git",
+  "repository": "https://github.com/laixstx/jh-utils.git",
   "keywords": [
-    "utils",
-    "beast-lib",
-    "react"
+    "jh-utils"
   ],
   "author": "twobear",
   "license": "MIT",
