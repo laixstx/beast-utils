@@ -1,12 +1,10 @@
 {
-  "name": "beast-utils",
-  "version": "0.0.2-beta.6",
+  "name": "jh-utils",
+  "version": "0.0.1-beta.2",
   "description": "一个工具方法库",
-  "repository": "https://github.com/laixstx/beast-utils.git",
+  "repository": "https://github.com/laixstx/jh-utils.git",
   "keywords": [
-    "utils",
-    "beast-lib",
-    "react"
+    "jh-utils"
   ],
   "author": "twobear",
   "license": "MIT",
@@ -21,6 +19,7 @@
   ],
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "f:build": "father build",
     "build": "sh ./scripts/build.sh",
