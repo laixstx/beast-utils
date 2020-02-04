@@ -115,7 +115,7 @@ export const addListNumber = (data, page) => {
     return data;
 };
 
-export const sort = (data,str)=>{
+export const sort = (data,str='asc')=>{
     let mp;
     if(data instanceof Array){
         mp  = [...data];

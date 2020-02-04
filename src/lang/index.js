@@ -9,11 +9,11 @@ import {getFromObjByKeys} from '../utils'
 export const  isEmail=(str)=>{
     if(!str)return false;
     let reg = /\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/;
-    return reg.test(str)
-};
+ return reg.test(str)
+ };
 
 
-/**
+ /**
  判断是否为手机号
  @param {String|Number} str
  @return {Boolean}

@@ -128,7 +128,7 @@ export function moneyToChinese(money) {
     return negative ? '负' + ChineseStr : ChineseStr;
 }
 
-export function formatMoney(s, n) {
+export function formatMoney(s, n=0) {
     if (null === s || 'undefined' === typeof s || '' === s || isNaN(s)) return '0.00';
     let negative = false; // 是负数
     if (0 > s) {
